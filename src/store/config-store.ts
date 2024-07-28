@@ -16,7 +16,7 @@ const config: PersistConfig<any> = {
   timeout: 10000,
 };
 
-const persistedReducer = persistReducer(config, RootReducer);
+const persistedReducer = persistReducer(config, RootReducer as any);
 let middlewares: any = [];
 const sagaMiddleware = createSagaMiddleware();
 
