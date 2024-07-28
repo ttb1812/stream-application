@@ -1,5 +1,5 @@
 # Getting Started
-
+Replace the appId, token with your own appID, token from project Agora in this path 'src/utils/containts.ts'.
 ## Step 1: Start the Metro Server
 
 First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
